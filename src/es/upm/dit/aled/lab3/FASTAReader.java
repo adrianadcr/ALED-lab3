@@ -145,7 +145,7 @@ public class FASTAReader {
 		for (int i = 0; i < pattern.length; i++) {
 			if (pattern[i] != content[position + i]) {
 				match = false;
-				break; //unica modificacion hecha al metodo anterior
+				break; //unica modificacion hecha al metodo anterior. 
 			}
 		}
 		return match;
