@@ -79,7 +79,6 @@ public class FASTAReaderSuffixes extends FASTAReader {
 	 */
 	@Override
 	public List<Integer> search(byte[] pattern) {
-		// TODO
 		List<Integer> listOrd = new ArrayList<>();
 		
 		int hi = suffixes.length;
